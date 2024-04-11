@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Станция Юных Натуралистов  г Славянска на Кубани</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+
+    <script defer src="js/main.js"></script>
 </head>
 <body>
-    <header id="header" class="main-header">
+  
+    <header id="header" class="header">
         <img src="1.png" class="background" />
         <div class="header-top">
+        <div class="container header__container">
         <p class="title-name">Станция Юных Натуралистов  г. Славянска на Кубани</p>
+         
+
+        <button class="header__burger-btn" id="burger">
+          <span></span><span></span><span></span>
+        </button>
+
         <nav class="menu" id="menu">
             <ul class="topmenu" class="menu__list">
                 <li class="menu__item"><a href="index.html" class="active" class="menu__link">Главная</a>
@@ -19,7 +30,7 @@
                         <li><a href="#history">Наша история</a></li>
                         <li><a href="#choice">Почему мы?</a></li>
                         <li><a href="#infrastrucuture">Наша инфраструктура</a></li>
-                        <li><a href="#infrastrucuture">Наши активности</a></li>
+                        <li><a href="#activity">Наши активности</a></li>
                         <li><a href="#science">Наука и дети</a></li>
                         <li><a href="#teachers">Наши учителя</a></li>
                         <li><a href="#pupils">Наши выпускники</a></li>
@@ -34,10 +45,11 @@
 
             </ul>
         </nav>
+        </div>
     </div>
         <div class='header-text'>
-        <h1>Лучшее место для <br>юных<text style="color:#CEFD14"> любителей</text> <br>природы</h1>
-        <button>Узнать больше</button>
+        <h1 class="main-h1">Лучшее место для <br>юных<text style="color:#CEFD14;"> любителей</text> <br>природы</h1>
+        <button class="button_href"><a href="#history">Узнать больше</a></button>
     </div>
     <h1 style="color:#CEFD14; text-align: center; font-size:18pt;" class="h1">Станции Юных Натуралистов в этом году исполняется 50 лет!!</h1>
 
@@ -647,6 +659,7 @@
                       <ul>
                         <li><a href="#history">Наша история</a></li>
                         <li><a href="#choice">Почему мы?</a></li>
+                        <li><a href="#infrastrucuture">Наша инфраструктура</a></li>
                         <li><a href="#activity">Наши активности</a></li>
                         <li><a href="#teachers">Наши учителя</a></li>
                         <li><a href="#pupils">Наши выпускники</a></li>
@@ -735,6 +748,7 @@
               
           </div>
     </footer>
+
    <script src="js/script.js"></script>
     <link rel="preconnect" href="https
 ://fonts.googleapis.com">

@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <title>Станция Юных Натуралистов  г Славянска на Кубани</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+
+    <script defer src="js/main.js"></script>
 </head>
 <body class="body-animals">
-    <header id="header" class="main-header-animals">
+    <header id="header" class="header">
+        
         <div class="header-top">
+        <div class="container header__container">
         <p class="title-name">Станция Юных Натуралистов  г. Славянска на Кубани</p>
-        <div class="animals-menu">
+         
+
+        <button class="header__burger-btn" id="burger">
+          <span></span><span></span><span></span>
+        </button>
+
         <nav class="menu" id="menu">
             <ul class="topmenu" class="menu__list">
                 <li class="menu__item"><a href="index.html" class="active" class="menu__link">Главная</a>
                     <ul class="submenu">
-                        <li><a href="index.html#history">Наша история</a></li>
                         <li><a href="index.html#choice">Почему мы?</a></li>
+                        <li><a href="index.html#history">Наша история</a></li>
+                        <li><a href="index.html#infrastrucuture">Наша инфраструктура</a></li>
                         <li><a href="index.html#activity">Наши активности</a></li>
+                        <li><a href="index.html#science">Наука и дети</a></li>
                         <li><a href="index.html#teachers">Наши учителя</a></li>
                         <li><a href="index.html#pupils">Наши выпускники</a></li>
                         <li><a href="index.html#reccomend">Полезные ссылки</a></li>
@@ -27,13 +39,15 @@
                 <li class="menu__item"><a href="animals.html"  class="menu__link">Животные</a></li>
                 <li class="menu__item"><a href="plants.html"  class="menu__link">Растения</a></li>
                 <li class="menu__item"><a href="cosmopark.html"  class="menu__link">Космопарк</a></li>
+                <li class="menu__item"><a href="news.html"  class="menu__link">Новости</a></li>
                 <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
 
             </ul>
         </nav>
+        </div>
+    </div>
 
-    </div>
-    </div>
+    
 
 <p style="font-size:18pt; text-align: center;"><b>На станции юных натуралистов  можно встретить разнообразных животных.</b>
 <br><br>
@@ -387,6 +401,7 @@
                     <ul>
                       <li><a href="index.html#history">Наша история</a></li>
                       <li><a href="index.html#choice">Почему мы?</a></li>
+                      <li><a href="index.html#infrastrucuture">Наша инфраструктура</a></li>
                       <li><a href="index.html#activity">Наши активности</a></li>
                       <li><a href="index.html#teachers">Наши учителя</a></li>
                       <li><a href="index.html#pupils">Наши выпускники</a></li>
@@ -401,7 +416,7 @@
                     <a href="plants.html"><h4>Растения</h4></a>
                 </div>
                 <div class="footer-col">
-                    <a href="contacts.html"><h4>Контакты</h4></a>
+                    <a href="index_4.html"><h4>Контакты</h4></a>
                     <div class="social-links">
                         <a href="mailto:centrdo_slavyansk@mail.ru" target="_blank"><img src="assets/free-icon-gmail-4926635.png" height="20px"></a>
                         <a href="http://slavcdo.ru/" target="_blank"><img src="assets/free-icon-internet-1450332.png" alt="" height="20px"></a>
@@ -409,9 +424,72 @@
                     </div>
                 </div>
             </div>
-            <text>© dararomanova5</text>
+            <text>© dararomanova5 - Дарья Романова</text>
+            <br>
+
+              <a href="#openModal_11">Пользовательское соглашение</a>
+  
+              <div id="openModal_11" class="modal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title">Пользовательское соглашение</h3>
+                        <a href="#close" title="Close" class="close">×</a>
+                      </div>
+                      <div class="modal-body">
+                        <pre>
+Настоящее Пользовательское Соглашение (Далее Соглашение) регулирует отношения между владельцем https://dararomanova5.github.io/yunnats/index.html (далее Станция Юных Натуралистов г. Славянска на Кубани или Администрация) с одной стороны и пользователем сайта с другой.
+Сайт Станция Юных Натуралистов г. Славянска на Кубани не является средством массовой информации.
+
+Используя сайт, Вы соглашаетесь с условиями данного соглашения.
+Если Вы не согласны с условиями данного соглашения, не используйте сайт Станция Юных Натуралистов г. Славянска на Кубани!
+
+Права и обязанности сторон
+Пользователь имеет право:
+- осуществлять поиск информации на сайте
+- получать информацию на сайте
+- распространять информацию на сайте
+- копировать информацию на другие сайты с указанием источника
+- использовать информацию сайта в личных некоммерческих целях
+
+Администрация имеет право:
+- по своему усмотрению и необходимости создавать, изменять, отменять правила
+- ограничивать доступ к любой информации на сайте
+
+Пользователь обязуется:
+- обеспечить достоверность предоставляемой информации
+- обеспечивать сохранность личных данных от доступа третьих лиц
+- не копировать информацию с других источников
+- не распространять информацию, которая направлена на пропаганду войны, разжигание национальной, расовой или религиозной ненависти и вражды, а также иной информации, за распространение которой предусмотрена уголовная или административная ответственность
+- не нарушать работоспособность сайта
+- не размещать материалы рекламного, эротического, порнографического или оскорбительного характера, а также иную информацию, размещение которой запрещено или противоречит нормам действующего законодательства РФ
+- не использовать скрипты (программы) для автоматизированного сбора информации и/или взаимодействия с Сайтом и его Сервисами
+
+Администрация обязуется:
+- поддерживать работоспособность сайта за исключением случаев, когда это невозможно по независящим от Администрации причинам.
+
+Ответственность сторон
+- администрация не несет никакой ответственности за услуги, предоставляемые третьими лицами
+- в случае возникновения форс-мажорной ситуации (боевые действия, чрезвычайное положение, стихийное бедствие и т. д.) Администрация не гарантирует сохранность информации, размещённой Пользователем, а также бесперебойную работу информационного ресурса
+
+Условия действия Соглашения
+Данное Соглашение вступает в силу при любом использовании данного сайта.
+Соглашение перестает действовать при появлении его новой версии.
+Администрация оставляет за собой право в одностороннем порядке изменять данное соглашение по своему усмотрению.
+Администрация не оповещает пользователей об изменении в Соглашении.
+
+
+Соглашение разработано на базе юридических документов сервиса Правилль
+</pre>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+            
         </div>
-   </footer>
+  </footer>
    <script src="js/script.js"></script>
     <link rel="preconnect" href="https
 ://fonts.googleapis.com">
